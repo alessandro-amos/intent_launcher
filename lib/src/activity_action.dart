@@ -1,3 +1,4 @@
+/// Constants are from the source code of [Settings provider](https://developer.android.com/reference/android/provider/Settings).
 abstract class ActivityAction {
   const ActivityAction._();
 
