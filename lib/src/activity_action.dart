@@ -180,8 +180,13 @@ class IntentLauncherParams {
 }
 
 enum ResultCode {
+  /// Indicates that the activity operation succeeded.
   success(-1),
+
+  /// Means that the activity was canceled, e.g. by tapping on the back button.
   canceled(0),
+
+  /// First custom, user-defined value that can be returned by the activity.
   firstUser(1);
 
   final int value;
