@@ -158,6 +158,9 @@ class IntentLauncherParams {
   /// set the component to handle the intent.
   final String? packageName;
 
+  /// Class name used as an identifier of ComponentName. Set this only if you want to explicitly
+  final String? className;
+
   const IntentLauncherParams({
     this.type,
     this.category,
@@ -165,6 +168,7 @@ class IntentLauncherParams {
     this.data,
     this.flags,
     this.packageName,
+    this.className,
   });
 
   Map<String, dynamic> toMap() {
@@ -175,6 +179,7 @@ class IntentLauncherParams {
       'data': data,
       'flags': flags,
       'packageName': packageName,
+      'className': className,
     };
   }
 }
