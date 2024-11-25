@@ -1,6 +1,6 @@
 name: intent_launcher
 description: "Provides a way to launch Android intents, e.g. opening a specific activity."
-version: 0.0.3
+version: 0.1.0
 repository: https://github.com/alessandro-amos/intent_launcher.git
 
 environment:
